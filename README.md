@@ -10,6 +10,7 @@ Dynamic oscillations (DOs) are evoked in certain cases of DBS within the SCC [[t
 A simple delay circuit generates a comb filter.
 A time-varying delay in the delay circuit can shape the DO.
 
+![](docs/images/sample_down_chirp.png)
 
 ### Wilson-Cowan Network
 A simple Wilson-Cowan network with edge dropout generating DOs.
