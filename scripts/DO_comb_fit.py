@@ -8,18 +8,17 @@ Comb filtering example
 
 """
 
+#%%a
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.signal as sig
 import sys
-#sys.path.append('/home/virati/Dropbox/projects/Research/DBSControl/autoDyn/')
-#from dyn_sys import dyn_sys
 import networkx as nx
-import pdb
 from allantools import noise
 
 plt.close('all')
 
+#%%
 class delay_filt2:
     def __init__(self,s0,se=[],s_decay=0):
         pass
@@ -113,6 +112,7 @@ class delay_filt:
         plt.suptitle('Delay samples:'+str(self.k[0]) + ' decay: ' + str(self.k_decay))
         plt.show()
 
+#%%
 
 # WORKS NICE! delayer = delay_filt(sec_delay=0.1,k_decay=-0.1)
 #flip k_decay for gold: delayer = delay_filt(sec_delay=0.07,k_decay=.-1)
