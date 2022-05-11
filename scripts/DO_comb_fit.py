@@ -12,7 +12,6 @@ Comb filtering example
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.signal as sig
-import sys
 import networkx as nx
 from allantools import noise
 
